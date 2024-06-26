@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../components/shared/Header";
+import Abouts from "../../components/About/About";
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       <div className="bg-dark_blue">
         <Header />
       </div>
-      <About />
+      <Abouts showMore={true} />
     </div>
   );
 };

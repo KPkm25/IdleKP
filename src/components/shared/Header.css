@@ -1,16 +1,69 @@
 /* src/components/Header.css */
 
 .header {
-    background-color: #999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px; /* Adjust as needed */
-  }
-  
-  .header-title {
-    font-family: 'Abril Fatface', sans-serif;
-    color: white;
-    margin: 0;
-  }
-  
+  background: url('/src/assets/pic7.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  padding: 20px;
+  border-bottom: 3px solid #ff1a1a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-family: 'Cinzel', serif; /* Similar to Luminari */
+  color: white;
+  margin: 0;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000; /* Strong shadow for depth */
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link {
+  font-family: 'Cinzel', serif; /* Similar to Luminari */
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  position: relative;
+  padding: 5px 0;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.nav-link:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffcccc;
+  transform: scale(1.05);
+}
+
+.nav-link:hover:before {
+  visibility: visible;
+  width: 100%;
+}

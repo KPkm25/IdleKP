@@ -1,0 +1,34 @@
+/* src/components/About/About.css */
+
+.about-section {
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center; /* Centers the text */
+    max-width: 800px; /* Adds a maximum width for better readability */
+  }
+  
+  .about-section h2, .about-section h3 {
+    font-family: 'Cinzel', serif;
+    color: #333;
+  }
+  
+  .about-section p {
+    color: #666;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-section .read-more {
+    color: #b30000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .about-section .read-more:hover {
+    text-decoration: underline;
+  }
+  

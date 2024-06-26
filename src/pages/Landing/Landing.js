@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/shared/Header";
 // import Blogs from "../../components/Landing/Blogs";
-// import About from "../../components/Landing/About";
+import About from "../../components/About/About";
 
 const Landing = () => {
   return (
@@ -9,7 +9,7 @@ const Landing = () => {
       <div className="bg-dark_blue">
         <Header />
       </div>
-      {/* <About /> */}
+      <About showMore={false}/>
       {/* <Blogs /> */}
     </div>
   );
