@@ -1,0 +1,16 @@
+/* src/components/Header.css */
+
+.header {
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust as needed */
+  }
+  
+  .header-title {
+    font-family: 'Abril Fatface', sans-serif;
+    color: white;
+    margin: 0;
+  }
+  
