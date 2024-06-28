@@ -1,0 +1,62 @@
+/* src/components/Blogs/Blogs.css */
+
+.blogs-section {
+    padding: 20px;
+    /* background-image: url('/src/assets/bi1.jpg'); Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .content-container {
+    max-width: 800px;
+    background-image: url('/src/assets/bi1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.6); Adding a semi-transparent background for readability */
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .blog-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .blog-content {
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .blog-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .blog-contents{
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .blog-date {
+    font-size: 1em;
+    color: #666;
+  }
+  

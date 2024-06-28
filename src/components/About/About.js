@@ -6,7 +6,7 @@ import './About.css'; // Add your styling here
 const About = ({ showMore }) => {
   return (
     <div className="about-section">
-      <h2>About IdleKP</h2>
+      <h2>About </h2>
       <p>
         Hey there! I'm Parakram, the mastermind behind IdleKP. This is where I spill the beans on my wild thoughts, crazy experiences, and everything in between. Buckle up for a ride through the weird and wonderful world inside my head!
       </p>

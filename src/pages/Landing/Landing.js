@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/shared/Header";
 // import Blogs from "../../components/Landing/Blogs";
 import About from "../../components/About/About";
+import Blogs from "../../components/Blogs/Blogs";
 
 const Landing = () => {
   return (
@@ -10,7 +11,7 @@ const Landing = () => {
         <Header />
       </div>
       <About showMore={false}/>
-      {/* <Blogs /> */}
+      <Blogs />
     </div>
   );
 };

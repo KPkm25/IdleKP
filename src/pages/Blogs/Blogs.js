@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/shared/Header";
+import Blogs from "../../components/Blogs/Blogs";
 
-const Blogs = () => {
+const Blog = () => {
   return (
     <div>
       <div className="bg-dark_blue">
@@ -12,4 +13,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Blog;
